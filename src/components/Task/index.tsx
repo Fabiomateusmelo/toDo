@@ -19,9 +19,6 @@ export function Task({task, onDelete, onComplete}: Props) {
       <p className={task.completed ? styles.textCompleted : ""}>
         {task.title}
       </p>
-      <button className={styles.delete}>
-        <TbEdit size={20} />
-      </button>
       <button className={styles.delete} onClick={() => onDelete(task.id)}>
         <TbTrash size={20} />
       </button>
