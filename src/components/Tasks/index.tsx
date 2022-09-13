@@ -7,7 +7,6 @@ interface Props {
   tasks: ITask[];
   onDelete: (taskId: string) => void
   onComplete: (taskId: string) => void
-  
 }
 
 export function Tasks({ tasks, onDelete, onComplete }: Props) {
