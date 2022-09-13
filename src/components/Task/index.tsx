@@ -2,7 +2,6 @@ import styles from './task.module.css'
 import { TbTrash, TbEdit } from 'react-icons/tb'
 import { ITask } from '../../App'
 import { BsFillCheckCircleFill } from 'react-icons/bs'
-import { EditText, EditTextarea } from 'react-edit-text';
 
 interface Props {
   task: ITask;
@@ -29,5 +28,4 @@ export function Task({task, onDelete, onComplete}: Props) {
     </div>
   )
 }
-
 
