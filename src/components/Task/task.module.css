@@ -35,6 +35,22 @@
   background: none;
   border: none;
   color: var(--gray-300);
+  transition: 0.2s ease;
+}
+
+.delete:hover {
+  color: var(--danger);
+}
+
+.edit {
+  background: none;
+  border: none;
+  color: var(--gray-300);
+  transition: 0.2s ease;
+}
+
+.edit:hover {
+  color: turquoise;
 }
 
 .checkContainer svg {
